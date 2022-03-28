@@ -49,4 +49,22 @@ Topics:
 3. Wrapper classes: the objects that represents the primitives
 
 
+4. String: immutable version char sequence
+		
+		"Java "
+		 01234
+
+		 Methods: charAt, length, trim, lowercase & uppercase, replace, substring, equals, contains, split, tochararray
+
+
+5. StringBuilder vs StringBuffer: mutable char sequence
+
+		StringBuilder: not Synchronized
+
+		StringBuffer: Synchronized
+
+
+
+
+		
 
