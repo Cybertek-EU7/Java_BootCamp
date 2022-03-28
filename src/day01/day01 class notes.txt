@@ -86,8 +86,36 @@ Topics:
 		  has index
 
 
+8. For Each Loop: There must be a data structure 
+				 Iteration order is fixed
 
-come back at: 10:12 am US EST
+
+			for(DataType var  : Data Structure ){
+
+			}
+
+
+9. Custom method: Function
+				 grouping a series of code fragments
+
+				 improves the reusability of the codes
+
+
+			 declare: 
+			 	 Access-Modifier  Specifier   ReturnType  methodName(Parameter){
+
+			 	 } 
+
+			 	 Access Modifier: public, protected, default, private
+			 	 Specifier: static, final, abstract, synchronized
+			 	 Return Type: void, DataType
+			 	 Parameter: DataType
+			 	 methodName: any name
+
+
+
+
+come back at: 11:20 am US EST
 
 
 

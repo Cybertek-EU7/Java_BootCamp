@@ -40,6 +40,13 @@ public class ArrayPractice {
             System.out.println(names[i]);
         }
 
+        System.out.println("-----------------------------");
+
+        int[] numbers = {10, 20, 30, 40, 50};
+
+        for (int number : numbers) {
+            System.out.println(number);
+        }
 
 
 
