@@ -65,6 +65,25 @@ Topics:
 
 
 
+6. Loops: repeated action
 
-		
+	for loop:
+		for(initialization; Condition; Iterator ){
+			statements
+		}
+
+
+	while loop:
+
+		while(Condition){
+			statements
+		}
+
+
+
+
+
+come back at: 10:12 am US EST
+
+
 
