@@ -155,6 +155,15 @@ Topics:
 					each objejct has its own memory
 
 
+13. Static vs Instance: one copy vs Multiple copies
+
+		static: belong to the class
+				There is only ONE copy of static shared by all the objects
+
+		instance: belongs to the object ONLY
+				  There are multiple copies of insteance for the objects
+				  Each object has it's own copy
+
 
 come back at: 1:10 pm US EST
 
