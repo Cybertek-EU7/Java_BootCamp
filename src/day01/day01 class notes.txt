@@ -80,6 +80,10 @@ Topics:
 		}
 
 
+7. Array: supports both primitives & non-primitives
+		  size is fixed
+		  can be multi-dimensional: n dimensional array contains (n-1) dimensional arrays
+		  has index
 
 
 
