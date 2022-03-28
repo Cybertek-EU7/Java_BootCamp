@@ -42,15 +42,45 @@ public class CustomMethods {
         System.out.println( isPalindrome(str1));
         System.out.println( isPalindrome(str2));
 
-    }
+        System.out.println("---------------------------");
+        
+        double[] nums = {1.5, 2.5, 3.5};
 
+        printEach(nums);
+
+        String[] names = {"Aysel", "Murat", "Selim", "Selbi"};
+        
+        printEach(names);
+       
+
+    }
 
     public static void printEach(int[] arr){
         System.out.println("--------------------");
         for (int each : arr) {
             System.out.println(each);
         }
+    }
 
+    public static void printEach(double[] arr){
+        System.out.println("--------------------");
+        for (double each : arr) {
+            System.out.println(each);
+        }
+    }
+
+    public static void printEach(char[] arr){
+        System.out.println("--------------------");
+        for (char each : arr) {
+            System.out.println(each);
+        }
+    }
+
+    public static void printEach(String[] arr){
+        System.out.println("--------------------");
+        for (String each : arr) {
+            System.out.println(each);
+        }
     }
 
     public static String reverse(String str){
@@ -62,8 +92,7 @@ public class CustomMethods {
 
          return result;
     }
-
-
+    
     public static boolean isPalindrome(String str){
         return reverse(str).equalsIgnoreCase(str);
     }

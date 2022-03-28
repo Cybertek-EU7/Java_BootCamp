@@ -114,8 +114,23 @@ Topics:
 
 
 
+10. Method overloading: multiple methods sharing the same method name
+						parameters must be different
 
-come back at: 11:20 am US EST
+						happens in same class
+						return type, access mdoifeirs can be same or different
+
+
+11. Constructor: special method, every class MUST have it
+				 used for creating objects from the class
+
+		Creating Object:
+				new Constructor;
+
+
+come back at: 1:10 pm US EST
+
+
 
 
 
