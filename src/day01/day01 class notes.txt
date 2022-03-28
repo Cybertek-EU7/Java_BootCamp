@@ -185,7 +185,25 @@ Topics:
 		default: accessible within same package ONLY
 		private: accessible within same class ONLY
 
-come back at: 1:10 pm US EST
+
+16. OOP: Object Oreinted Programming
+		
+		code reusability
+		centralized structure
+		prevents the duplication
+		easy to maintain
+		less memory usage
+		clean
+
+
+	Encapsulation: hiding the data by givig private AM
+				   use public getter/setter to read/write the data
+
+				   getter: read only
+				   setter: write only
+
+
+come back at: 2:16 pm US EST
 
 
 
