@@ -19,20 +19,8 @@ Topics:
 		15. Access Modifiers
 		16. OOP Encapsulations
 		17. OOP Inheritance
-		18. Method Overriding
-		19. Final keyword
-		20. OOP Abstraction
-		21. Abstract Class vs Interface
-		22. OOP Polymorphism
-		23. Reference Type Castings: Upcasting vs DownCasting
-		24. Exceptions: checked & unchecked
-		25. Exception Handlings
-		26. final vs finally vs finalize
-		27. garbage collection & garbage collector
-		28. Collections: List, Set, Queue
-		29. Iteable & Iterator
-		30. Maps
-
+				IS A vs Has A
+		
 
 1. primitives:	int, double, char, boolean
 		byte, short, int, long, float, double
@@ -201,6 +189,102 @@ Topics:
 
 				   getter: read only
 				   setter: write only
+
+
+17. Inheritance: building IS A relations between classes (parent/child)
+
+			class A  extends  class B
+				 sub 			   super
+
+
+		 sub class: can inherit all the visible variables & methods from super class
+
+		 super class: can not inherit anything from sub class
+		 			 can ONLY contains common features between all sub classes
+
+		 A class can extends oen class ONLY
+
+		 A class can be extended by multiple classes
+
+
+   In my framework:
+
+		 TestBase:
+
+		 		driver
+		 		action
+
+		 		@BeforeMethod{
+		 			open the browser
+		 			maximize the browser
+		 			implicitwait
+		 			...
+		 		}
+
+
+		 		@AfterMethod {
+		 			quit
+		 			report
+		 			..
+		 		}
+
+
+ 		TestClass1 extends TestBase
+
+ 		TestClass2 extends TestBase
+
+ 		TestClass3 extends TestBase
+
+ 		TestClass4 extends TestBase
+
+
+	In my framework:
+			BasePage:
+					public BasePage(){
+						Pagefactory.initElements(driver, this)
+					}
+
+
+			LogInPage extends BasePage
+
+			PurchasePage extends BasePage
+
+			...
+
+
+
+	Is A relation vs Has A relation:
+
+		class Animal{
+
+		}
+
+		class Dog extends Animal{  // Dog Is A animal
+
+		}
+ 
+		class Zoo{   // Zoo Has A Dog
+			Dog
+		}
+
+
+		class Test{ // Test has A driver
+			driver
+		}
+
+
+
+	   class Car{
+
+	   }
+
+	   class BMW extends Car{  // BMW IS A car
+	   		Engine   // BMW Has A Engine
+	   }
+
+	   class Engine{
+
+	   }
 
 
 come back at: 2:16 pm US EST
