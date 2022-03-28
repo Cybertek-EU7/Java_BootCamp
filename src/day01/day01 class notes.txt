@@ -123,10 +123,27 @@ Topics:
 
 11. Constructor: special method, every class MUST have it
 				 used for creating objects from the class
+				 execution depends on the object
+
+
+			 declare:
+			 		Access_Modifier  ClassName(parameter){
+
+			 		}
+
 
 		Creating Object:
 				new Constructor;
 
+
+		in my framework:
+				BasePage:
+					public BasePage(){
+						Pagefactory.initElements(driver, this)
+					}
+
+
+				@FindBy
 
 come back at: 1:10 pm US EST
 
