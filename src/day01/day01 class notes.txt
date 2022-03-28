@@ -32,3 +32,21 @@ Topics:
 		28. Collections: List, Set, Queue
 		29. Iteable & Iterator
 		30. Maps
+
+
+1. primitives:	int, double, char, boolean
+		byte, short, int, long, float, double
+		char, boolean
+
+
+2. Primitive type castings
+		
+		1. implicit casting: casting smaller primitive type to larger (implicitly done)
+
+		2. explicit casting: casting larger primitive type to smaller (explicitly done)
+
+
+
+
+
+
