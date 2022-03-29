@@ -203,8 +203,21 @@ Topics:
                 Set: Switch between Multiple tabs (getWindowHandles())
 
 
-29 Iterable & Iterator:
+29 Iterable & Iterator: used for remiving objects from collection during the iterations
 
+
+30. Map(I):  key & value (pairs). key can not be duplicated
+             size is dynamic
+             ONLY supports non-primitives
+
+
+         HashMap(C): maintains the random order, accepts null key & value
+
+         LinkedHashMap(C): maintains the insertion order, accepts null key & value
+
+         HashTable(C): maintains the random order, deos not accept null. Synchronized
+
+         TreeMap(C): maintains sorted (ascending) order , key can not be null, value can be null
 
 
 
