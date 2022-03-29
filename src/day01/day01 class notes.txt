@@ -190,6 +190,9 @@ Topics:
 				   getter: read only
 				   setter: write only
 
+           in my framework:
+                POJO class
+
 
 17. Inheritance: building IS A relations between classes (parent/child)
 
