@@ -39,4 +39,70 @@ Topics:
 
 
 
+20. OOP Abstraction: hiding the implementation details
+                    putting the focus on essentials without worrying about the details
+
+                    abstract method: method without the body
+                                     meant to be overriden ( can not be private, static, final)
+
+
+                 2 ways:
+                        1. Abstract class: meant to be parent (can not be final)
+                                          can not create object
+
+                                    A class can only extends one abstract class
+
+                        2. Interface: blue print of the class
+                                     used for providing additional methods that the class needs
+                                     meant to be implemented ( can not be final)
+                                     can not create object
+
+                                     A class can implement multiple classes
+
+                                     variables: public static final by default
+
+                                     methods: abstract method, static methods, default method
+
+
+                Volume:
+                    volume();
+
+                Shape:
+                    area();
+
+                Circle extends Shape
+
+                Square extends Shape
+
+                Rectangle extends Shape
+
+                Cube extends Shape implements Volume
+
+                Cylinder extends Shape implements Volume
+
+                Sphere extends Shape implements Volume
+
+
+                In my framework:
+                    Abstract class: BasePage, TestBase
+
+                    Interface: 
+                            Map
+                            List & Set
+                            WebDriver
+                            JavaScriptExecuter
+                            TakeScreenShot
+                            WebElement
+                            ...
+
+
+
+
+
+
+
+
+
+
+
 
