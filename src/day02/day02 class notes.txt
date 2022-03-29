@@ -33,9 +33,9 @@ Topics:
         
         variables: can not be reassigned
 
-        methods: 
+        methods: can not be overriden
 
-        classes
+        classes: can not be inherited
 
 
 

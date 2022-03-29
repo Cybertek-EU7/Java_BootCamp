@@ -1,6 +1,6 @@
 package day02;
 
-public class FinalKeyword {
+public final class FinalKeyword {
 
     public static void main(String[] args) {
 
@@ -18,10 +18,13 @@ public class FinalKeyword {
 
 }
 
+/*
 class D extends FinalKeyword{
-   /*
+
     public void method(){
         System.out.println("B");
     }
+
+    }
     */
-}
+
