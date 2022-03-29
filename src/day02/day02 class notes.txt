@@ -96,6 +96,32 @@ Topics:
                             ...
 
 
+22. OOP Polymorphism: ability of the object to take on many forms
+                     There MUST be inheritance
+
+                     parent class/interface being referenced to child objects
+
+                     reference type decides whats accessible
+
+                     WebDriver driver = new ChromeDriver();
+
+
+                     in my frameowrk:
+                        Driver:
+                            WebDriver driver;
+
+                            WebDriver getDriver()
+
+
+
+23. Reference type castings:  There MUST be inheritance
+            
+            upcasting: casting smaller type to larger ( done implicitly)
+
+                       //  WebDriver driver = (WebDriver) new ChromeDriver();
+
+
+            down casting: casting larger type to smaller (done explicitly)
 
 
 
