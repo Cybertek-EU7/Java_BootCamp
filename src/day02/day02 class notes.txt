@@ -219,6 +219,10 @@ Topics:
 
          TreeMap(C): maintains sorted (ascending) order , key can not be null, value can be null
 
+         in my framework:
+                properties file
+                Jason object
+
 
 
 
