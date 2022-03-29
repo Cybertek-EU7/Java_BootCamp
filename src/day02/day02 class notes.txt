@@ -126,6 +126,29 @@ Topics:
 
 
 24. Exceptions: checked & unchecked
+        
+        checked: occurs during compile time
+
+        unchecked: occurs during runtime
+
+25. Exception handlings:
+            
+            1. try & catch: For both checked & unchecked exception
+
+                    try{
+                        exception code
+                    }catch(ExceptionClass e){
+                        e.printStackTrace();
+                    }finally{
+
+                    }
+
+
+            2. throws: used within method signature.
+                       for checked exceptions ONLY
+
+                        caller is reponsible for handling the exception
+
 
 
 
