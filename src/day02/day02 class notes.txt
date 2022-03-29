@@ -17,4 +17,26 @@ Topics:
 		30. Maps
 
 
-18. Method Overriding
+18. Method Overriding: giving different implementations to the method
+
+                        must happen in sub class
+
+                        Access modifier must be same or more visible
+
+                        return type, method name, parameters neeed to be same 
+
+                        We can not override:
+                            static, final, private
+
+
+19. Final keyword: unchangable
+        
+        variables: can not be reassigned
+
+        methods: 
+
+        classes
+
+
+
+
