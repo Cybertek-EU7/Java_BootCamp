@@ -4,7 +4,11 @@ import java.io.FileInputStream;
 
 public class Exceptions {
 
-    public static void main(String[] args) throws InterruptedException {
+
+
+    public static void main(String[] args) throws Throwable {
+
+       // new Exceptions().finalize();
 
 
       //  System.out.println( "Java".charAt(2000) );  // unchecked exception

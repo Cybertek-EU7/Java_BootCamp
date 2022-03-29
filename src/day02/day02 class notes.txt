@@ -150,6 +150,74 @@ Topics:
                         caller is reponsible for handling the exception
 
 
+26. final vs finally vs finalize:
+        
+        final: keyword. can be used for variables, methods, and class
+
+        finally: block. can be used with try & catch
+
+        finalize: method. used for garbgage collector to collect the unrferenced objects
+
+
+
+27. garbage collection: where all the unrefertenced objects goes to
+    
+            unreferenced objects:
+               new object or null key is being assigned to the reference name
+
+
+
+28. Collection: size is dynamic
+                ONLY supports non-primitives
+                Ready methods
+
+
+        List(I): Accepts duplicates, Has index
+
+                ArrayList(C): searching/retrieving the element is faster ( get() )
+
+                LinkedList(C): adding/removing the element is faster (add(), addAll(), remove(), removeAll(), retainAll(), removeIf())
+
+                Vector(C): Synchronized ==> thread-safe
+
+                Stack(C): Synchronized ==> thread-safe. LIFO
+
+
+        Set(I): Does not accepts duplicates, Does not have index
+
+                HashSet(C): maintains the random order
+
+                LinkedHashSet(C): maintains the insertion order
+
+                TreeSet(C): maintains sorted (ascending) order
+
+
+        Queue(I): Accepts duplicates, Does not have index, FIFO
+
+
+        In my framework:
+                List:  List of WebElements (findElements())
+                       List of String
+                       List of Map
+
+                Set: Switch between Multiple tabs (getWindowHandles())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
