@@ -17,7 +17,7 @@ Topics:
 		30. Maps
 
 
-18. Method Overriding: giving different implementations to the method
+18. Method Overriding (runtime polymorphim): giving different implementations to the method
 
                         must happen in sub class
 
@@ -125,7 +125,7 @@ Topics:
 
 
 
-
+24. Exceptions: checked & unchecked
 
 
 
